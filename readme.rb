@@ -22,4 +22,6 @@ puts <<ART
 #{name}
 ART
 
+
+puts "Can't GIT right"
 				
