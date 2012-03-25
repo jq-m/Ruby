@@ -3,4 +3,23 @@
 puts "What is your name?"
 name = gets.chomp()
 
-print name
+puts <<ART
+         (        )
+         O        O
+         ()      ()
+          Oo.nn.oO
+           _mmmm_
+         /|_mmmm_|/
+         /|_mmmm_|/
+         /|_mmmm_|/
+         /| mmmm |/
+             nn
+             ()
+             ()
+              ()    /
+               ()__()
+                '--'
+#{name}
+ART
+
+				
